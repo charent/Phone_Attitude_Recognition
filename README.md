@@ -2,13 +2,15 @@
 通过采集不同使用姿态下的手机重力感应器、线性加速度感应器、加速度感应器和陀螺仪的数据，得到模型的训练数据。训练出来的模型使用`fastapi`进行API发布部署，手机采集传感器数据后`post`到服务端，服务端识别出姿态后返回具体的姿态到手机端。
 
 识别以下三种姿态:
-```json
+```python
 {
     0: "正常的输入操作",
     1: "输入中换人",
     2: "行走输入"
 }
 ```
+安卓手机端的数据采集项目见：[Android_Sensor_Data_Collection](https://github.com/charent/Android_Sensor_Data_Collection)
+
 
 # 数据处理及模型训练
 见`attitude_recognition`文件夹下的[readme.md](./attitude_recognition/readme.md)。 

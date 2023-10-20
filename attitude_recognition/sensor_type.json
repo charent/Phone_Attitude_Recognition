@@ -1,0 +1,7 @@
+{
+    "gravity": 0,
+    "linear_accel": 1,
+    "accel": 2,
+    "magnet": 3,
+    "gyro": 4  
+} 

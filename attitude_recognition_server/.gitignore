@@ -1,0 +1,7 @@
+/data
+*__pycache__
+/apk/app-release.apk
+/model_file
+/ssl/cert.pem
+/ssl/key.pem
+/apk
